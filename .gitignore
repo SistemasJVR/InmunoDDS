@@ -1,18 +1,17 @@
-*.log
-wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
+    #java specific
+    *.class
 
-/.htaccess
-/license.txt
-/readme.html
-/sitemap.xml
-/sitemap.xml.gz
+    #netbeans ignore personal stuff
+    nbproject/
 
+    ## generic files to ignore
+    *~
+    *.lock
+    *.DS_Store
+    *.swp
+    *.out
+
+    # Package Files #
+    *.jar
+    *.war
+    *.ear
